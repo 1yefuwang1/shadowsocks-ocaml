@@ -1,0 +1,6 @@
+(library
+ (name Crypto)
+ (inline_tests)
+ (libraries core cryptokit)
+ (preprocess
+  (pps ppx_expect)))
